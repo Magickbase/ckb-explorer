@@ -1,4 +1,4 @@
-ARG RUBY_VERSION=3.0.3
+ARG RUBY_VERSION=3.1.2
 FROM ruby:$RUBY_VERSION
 LABEL MAINTAINER Nervos Network
 RUN apt-get update && apt-get install -y  build-essential \
