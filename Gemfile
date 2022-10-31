@@ -39,7 +39,7 @@ gem "ckb-sdk-ruby", git: "https://github.com/nervosnetwork/ckb-sdk-ruby.git", re
 
 # Redis
 gem "hiredis", "~> 0.6.3"
-gem "redis", "~> 4.8.0"
+gem "redis", "~> 5.0.0"
 
 gem "digest-crc"
 

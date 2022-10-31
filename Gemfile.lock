@@ -302,9 +302,12 @@ GEM
       ffi (~> 1.0)
     rbnacl (7.1.1)
       ffi
-    redis (4.8.0)
-    redis-objects (1.5.1)
-      redis (~> 4.2)
+    redis (5.0.0)
+      redis-client (~> 0.7)
+    redis-client (0.10.0)
+      connection_pool
+    redis-objects (1.7.0)
+      redis
     regexp_parser (2.1.1)
     reverse_markdown (2.1.1)
       nokogiri
@@ -453,7 +456,7 @@ DEPENDENCIES
   rack-cache
   rack-cors
   rails (~> 6.1.0)
-  redis (~> 4.8.0)
+  redis (~> 5.0.0)
   redis-objects
   rubocop
   rubocop-performance
